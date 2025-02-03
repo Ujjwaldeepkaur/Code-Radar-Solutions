@@ -5,4 +5,4 @@ int main()
     scanf("%d",&ch);
     printf("You entered:",ch);
     return 0;
-}
+} 
