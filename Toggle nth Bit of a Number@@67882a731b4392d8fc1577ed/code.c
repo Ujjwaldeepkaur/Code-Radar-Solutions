@@ -9,6 +9,6 @@ int main(){
     scanf("%d",&n);
 
     int result=togglenthbit(number,n);
-    printf("%d",&n,&result);
+    printf("%d",&n);
     return 0;
 }
