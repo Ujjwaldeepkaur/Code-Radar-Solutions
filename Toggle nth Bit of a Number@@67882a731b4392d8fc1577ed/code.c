@@ -9,5 +9,5 @@ int main(){
     scanf("%d",&n);
 
     int result=togglenthbit(number,n);
-     return 0;
+    return 0;
 }
