@@ -2,7 +2,7 @@
 
 int lowestsetbitposition(int num){
     int(num == 0){
-        returb -1;
+        return -1;
     }
     return __builtin_ctz(num);
 }
