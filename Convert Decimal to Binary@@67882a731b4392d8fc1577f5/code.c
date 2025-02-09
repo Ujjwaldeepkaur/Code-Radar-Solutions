@@ -1,6 +1,6 @@
 #include <stdio.h>
 void printbinary(int num){
-    for(int i=2; i>=0; i--){
+    for(int i=3; i>=0; i--){
         int bit = (num >> i) & 1;
         printf("%d",bit);
     }
