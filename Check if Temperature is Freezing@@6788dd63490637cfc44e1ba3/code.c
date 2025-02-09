@@ -3,7 +3,7 @@
 int main(){
     int h;
     scanf("%d",&h);
-    if(h>=0){
+    if(h<=0){
         printf("Freezing");
     }
     else{
