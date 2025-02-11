@@ -1,15 +1,28 @@
 #include <stdio.h>
-void printbinary(int num){
-    for(int i=31; i>=0; i--){
-        int bit = (num >> i) & 1;
-        printf("%d",bit);
+void decimaltobinary(int num)
+{
+    int binary[32];
+    int i=0;
+    if(num==0)
+    {
+        printf("0");
+        return;
     }
-    printf("\n");
+    while(num>0)
+    {
+        binary[i]=num&1;
+        num>>=1;
+        i++;
+    }
+    for(int j=i-1;j>=0;j--)
+    {
+        printf("%d",binary[j]);
+    }
 }
-int main(){
+int main()
+{
     int num;
-    
     scanf("%d",&num);
-    printbinary(num);
+    decimaltobinary(num);
     return 0;
 }
