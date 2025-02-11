@@ -7,7 +7,7 @@ int main()
     while((num&1)==0)
     {
         num>>=1;
-        pos++
+        pos++;
     }
     printf("%d\n",pos);
     return 0;
