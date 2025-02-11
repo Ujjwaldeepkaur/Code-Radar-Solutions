@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-int lowestsetbitposition(int num){
-    int(num == 0){
-        return -1;
-    }
-    return __builtin_ctz(num);
-}
-int main(){
-    int num;
+int main()
+{
+    int num,pos=0;
     scanf("%d",&num);
-    int position = lowestsetbitposition(num);
-    printf("%d\n",position);
+    while((num&1)==0)
+    {
+        num>>1;
+        pos++
+    }
+    printf("%d\n",pos);
     return 0;
 }
