@@ -2,11 +2,11 @@
 
 int counttrailingzeros(unsigned int num)
 {
-    if(num==0)return 32;
+    if(num==0) return 32;
     int count=0;
     while((num&1)==0)
     {
-        count++
+        count++;
         num>>=1;
     }
     return count;
