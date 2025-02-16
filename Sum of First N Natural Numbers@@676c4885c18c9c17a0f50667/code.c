@@ -4,7 +4,6 @@
 int main()
 {
     int a=0,b=1,n,sum,i;
-    printf("Enter the number of terms:");
     scanf("%d",&n);
 
     for (i=1;i<=n;i++)
