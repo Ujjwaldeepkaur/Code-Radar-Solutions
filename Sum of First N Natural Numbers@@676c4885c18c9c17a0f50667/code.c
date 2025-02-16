@@ -5,7 +5,7 @@ int main(){
     while(num !=0){
         remainder = num%10;
         sum += remainder;
-        num / = 10;
+        num /= 10;
     }
     printf("%d",sum);
     return 0;
