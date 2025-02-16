@@ -21,6 +21,6 @@ int main(){
         digit = a%10;
         sum += digit;
     }
-    printf("%d",sum);
+    printf("%d\n",sum);
     return 0;
 }
