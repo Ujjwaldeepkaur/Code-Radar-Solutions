@@ -8,9 +8,15 @@ int main(){
     else
        printf("Odd");
 
-    digit =na%10;
+    digit =a%10;
     sum  += digit;
     a=a/10; 
+
+    if(a>0){
+        digit = a%10;
+        sum += digit;
+        a=a/10;
+    }
     if(a>0){
         digit = a%10;
         sum += digit;
