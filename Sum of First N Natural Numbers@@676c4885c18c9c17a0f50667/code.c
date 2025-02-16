@@ -1,26 +1,47 @@
-//Sum of even and odd digits of a number
-
 #include<stdio.h>
 int main()
 {
-    int n,ld,sum1=0,sum2=0;
-    printf("Enter number:");
-    scanf("%d",&n);
-    while (n>0)
+    int a,b,i,count1=0,count2;
+    printf("Enter 2 number:");
+    scanf("%d%d",&a,&b);
+    for (i=2;i<=a/2;i++)
     {
-        ld=n%10;
-        if (ld%2==0)
+        if (a%i==0)
         {
-            sum1=sum1+ld;
+            count1 =1;
+            break;
         }
+
         else
         {
-            sum2=sum2+ld;
+            count1 =0;
         }
-        n=n/10;
+
     }
 
-    printf("The sum of all even digits in the number: %d\n",sum1);
-    printf("The sum of all odd digits in the number: %d\n",sum2 );
-    return 0;
+     for (i=2;i<=b/2;i++)
+    {
+        if (a%i==0)
+        {
+            count2 =1;
+            break;
+        }
+
+        else
+        {
+            count2 =0;
+        }
+
+    }
+
+    if (count1==0 && count2==0 && (a-b==2 || b-a==2))
+    {
+        printf("Twin Prime\n");
+    }
+
+    else
+    {
+        printf("Not Twin Prime\n");
+    }
+return 0;
 }
