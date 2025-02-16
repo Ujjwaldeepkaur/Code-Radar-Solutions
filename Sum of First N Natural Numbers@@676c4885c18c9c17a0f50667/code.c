@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main(){
-    int num,sum=0,remainder;
-    scanf("%d",&num);
-    while(num !=0){
-        remainder = num%10;
-        sum += remainder;
-        num /= 10;
+    int t1=0;
+    int t2=1;
+    int nt,n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        printf("%d",t1);
+        nt=t1+t2;
+        t1=t2;
+        t2=nt;
     }
-    printf("%d",sum);
     return 0;
 }
