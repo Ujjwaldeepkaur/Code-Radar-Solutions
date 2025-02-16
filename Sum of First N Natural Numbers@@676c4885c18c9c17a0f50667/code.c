@@ -1,18 +1,26 @@
-//Fibonacci Series
+//Sum of even and odd digits of a number
 
 #include<stdio.h>
 int main()
 {
-    int a=0,b=1,n,sum,i;
+    int n,ld,sum1=0,sum2=0;
+    printf("Enter number:");
     scanf("%d",&n);
-
-    for (i=1;i<=n;i++)
-
-    {   printf("%d\n",a);
-        sum=a+b;
-        a=b;
-        b=sum;
+    while (n>0)
+    {
+        ld=n%10;
+        if (ld%2==0)
+        {
+            sum1=sum1+ld;
+        }
+        else
+        {
+            sum2=sum2+ld;
+        }
+        n=n/10;
     }
-    return 0;
 
+    printf("The sum of all even digits in the number: %d\n",sum1);
+    printf("The sum of all odd digits in the number: %d\n",sum2 );
+    return 0;
 }
