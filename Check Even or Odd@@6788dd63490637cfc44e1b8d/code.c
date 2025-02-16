@@ -8,12 +8,13 @@ int main(){
     else
        printf("Odd");
 
-    int temp = a;
-    while(temp != 0){
-        digit = temp % 10;
+    digit =na%10;
+    sum  += digit;
+    a=a/10; 
+    if(a>0){
+        digit = a%10;
         sum += digit;
-        temp /= 10;
     }
-    printf("%d\n",sum)
+    printf("%d",sum);
     return 0;
 }
