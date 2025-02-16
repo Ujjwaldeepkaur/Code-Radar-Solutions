@@ -1,15 +1,20 @@
 #include<stdio.h>
-int main(){
-    int t1=0;
-    int t2=1;
-    int nt,n;
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++)
+int main()
+{
+    int a,rem,sum,num;
+    sum=0;
+    scanf("%d",&a);
+    num=a;
+    while(a != 0)
     {
-        printf("%d\n",t1);
-        nt=t1+t2;
-        t1=t2;
-        t2=nt;
+        rem=a%10;
+        sum=sum+(rem*rem*rem);
+        a=a/10;
     }
+    printf("%d\n",sum);
+    if(num==sum)
+    printf("Armstrong number");
+    else
+    printf("Not an Armstrong number.");
     return 0;
 }
