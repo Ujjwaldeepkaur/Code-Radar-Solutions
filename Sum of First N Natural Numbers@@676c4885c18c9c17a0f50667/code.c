@@ -1,20 +1,27 @@
+//Palindrome number
+
 #include<stdio.h>
 int main()
 {
-    int a,rem,sum,num;
-    sum=0;
-    scanf("%d",&a);
-    num=a;
-    while(a != 0)
+    int n,temp,ld,sum=0;
+    scanf("%d",&n);
+    temp=n;
+    while (n>0)
     {
-        rem=a%10;
-        sum=sum+(rem*rem*rem);
-        a=a/10;
+        ld = n%10;
+        sum =sum*10+ld;
+        n =n/10;
     }
-    printf("%d\n",sum);
-    if(num==sum)
-    printf("Armstrong number");
+    printf("The reverse of the number is: %d\n",sum);
+
+    if (sum==temp)
+    {
+        printf("Palindrome");
+    }
+
     else
-    printf("Not an Armstrong number.");
+    {
+        printf("Not Palindrome");
+    }
     return 0;
 }
