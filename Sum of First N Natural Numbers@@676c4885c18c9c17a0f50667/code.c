@@ -1,27 +1,19 @@
-//Palindrome number
+//Fibonacci Series
 
 #include<stdio.h>
 int main()
 {
-    int n,temp,ld,sum=0;
+    int a=0,b=1,n,sum,i;
+    printf("Enter the number of terms:");
     scanf("%d",&n);
-    temp=n;
-    while (n>0)
-    {
-        ld = n%10;
-        sum =sum*10+ld;
-        n =n/10;
-    }
-    printf("%d\n",sum);
 
-    if (sum==temp)
-    {
-        printf("Palindrome");
-    }
+    for (i=1;i<=n;i++)
 
-    else
-    {
-        printf("Not Palindrome");
+    {   printf("%d\n",a);
+        sum=a+b;
+        a=b;
+        b=sum;
     }
     return 0;
+
 }
