@@ -12,7 +12,7 @@ int main()
         sum =sum*10+ld;
         n =n/10;
     }
-    printf("The reverse of the number is: %d\n",sum);
+    printf("%d\n",sum);
 
     if (sum==temp)
     {
