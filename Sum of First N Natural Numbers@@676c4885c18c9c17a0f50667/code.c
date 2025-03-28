@@ -6,7 +6,7 @@ int main()
     for(int i=1;i<=N;i++){ 
         sum=sum+i;  
     }
-    printf("%d",N,sum);
+    printf("%d",sum);
     
     return 0;
 }
