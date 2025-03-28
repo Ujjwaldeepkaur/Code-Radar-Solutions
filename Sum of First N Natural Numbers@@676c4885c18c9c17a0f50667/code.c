@@ -1,10 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    for(int i=1;i<=100;i++){
-        if(i%2==0){
-            printf("%d\n",i);
-        }
+    int N;
+    scanf("%d",&N);
+    int a=1;
+    for(int i=1;i<=N;i++){
+        printf("%d",a);
+        a=a+1
+    }
     }
     return 0;
 }
