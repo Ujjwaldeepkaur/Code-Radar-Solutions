@@ -18,7 +18,7 @@ int main()
     if(i == 5){
         printf("    *\n   **\n  ***\n ****\n*****");
     }
-    if(i == 6){
+    if(i == 7){
         printf("     *\n    **\n   ***\n  ****\n *****\n******");
     }
     return 0;
