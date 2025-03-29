@@ -12,5 +12,8 @@ int main()
     if(i == 3){
         printf("  *\n **\n***");
     }
+    if(i == 4){
+        printf("   *\n  **\n ***\n****");
+    }
     return 0;
 }
