@@ -15,5 +15,8 @@ int main()
     if(i == 4){
         printf("   *\n  **\n ***\n****");
     }
+    if(i == 5){
+        printf("    *\n   **\n  ***\n ****\n*****");
+    }
     return 0;
 }
