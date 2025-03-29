@@ -18,5 +18,8 @@ int main()
     if(i == 5){
         printf("    *\n   **\n  ***\n ****\n*****");
     }
+    if(i == 6){
+        printf("     *\n    **\n   ***\n  ****\n *****\n******");
+    }
     return 0;
 }
