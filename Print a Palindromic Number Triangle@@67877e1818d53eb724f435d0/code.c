@@ -10,7 +10,7 @@ int main()
         printf(" 1 \n121");
     }
     if(n == 3){
-        printf("  1  \n 121 \n1231");
+        printf("  1  \n 121 \n12321");
     }
     return 0;
 }
