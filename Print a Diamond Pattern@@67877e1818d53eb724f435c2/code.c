@@ -9,5 +9,8 @@ int main()
     if(n == 3){
         printf("  *  \n *** \n*****\n *** \n  *  ");
     }
+    if(n == 4){
+        printf("   *   \n  ***  \n ***** \n*******\n ***** \n  ***  \n   *   ");
+    }
     return 0;
 }
