@@ -11,5 +11,8 @@ int main(){
     if(n == 4){
         printf("****\n*  *\n*  *\n****");
     }
+    if(n == 5){
+        printf("*****\n*   *\n*   *\n*   *\n*****");
+    }
     return 0;
 }
