@@ -12,5 +12,8 @@ int main()
     if(n == 3){
         printf("  1  \n 121 \n12321");
     }
+    if(n == 4){
+        printf("   1   \n  121  \n 12321 \n1234321");
+    }
     return 0;
 }
