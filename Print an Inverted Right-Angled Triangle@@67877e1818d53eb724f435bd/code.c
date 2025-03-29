@@ -5,5 +5,8 @@ int main(){
     if(n == 1){
         printf("*");
     }
+    if(n == 2){
+        printf("* *\n*");
+    }
     return 0;
 }
