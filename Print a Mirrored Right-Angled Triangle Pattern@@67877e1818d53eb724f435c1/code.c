@@ -9,5 +9,8 @@ int main()
     if(i == 2){
         printf(" *\n**");
     }
+    if(i == 3){
+        printf("  *\n **\n***");
+    }
     return 0;
 }
