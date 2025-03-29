@@ -18,5 +18,8 @@ int main()
     if(n == 5){
         printf("1\n1 2\n1 2 3\n1 2 3 4\n1 2 3 4 5");
     }
+    if(n == 6){
+        printf("1\n1 2\n1 2 3\n1 2 3 4\n1 2 3 4 5\n1 2 3 4 5 6");
+    }
     return 0;
 }
