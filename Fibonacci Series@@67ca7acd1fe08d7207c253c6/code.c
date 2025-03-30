@@ -11,8 +11,3 @@ int fibonacci(){
         b=sum;
     }  
 }
-int main()
-{
-    fibonacci();
-    return 0;
-}
