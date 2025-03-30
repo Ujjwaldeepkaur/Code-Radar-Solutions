@@ -1,5 +1,5 @@
 #include<stdio.h>
-int fibonacci(){
+int fibonacciSeries(){
     int n;
     int a=0,b=1,sum;
     scanf("%d",&n);
