@@ -1,16 +1,21 @@
 #include<stdio.h>
-int fibonacciSeries(){
+int fibonacciseries()
+{
     int n;
+    int a=0,b=1,sum;
+
     scanf("%d",&n);
-    for(int i=0;i<=n;i++);
-    if(n<1)
+    for (int i=1;i<=n;i++)
     {
-        return 0;
+      printf("%d\n",a);
+      sum =a+b;
+      a=b;
+      b=sum;
     }
-    else if(n == 1){
-        return 1;
-    }
-    else{
-        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
-    }
+
+}
+int main()
+{
+    fibonacci();
+    return 0;
 }
