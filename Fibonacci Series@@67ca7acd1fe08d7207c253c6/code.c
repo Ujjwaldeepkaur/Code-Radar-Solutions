@@ -10,5 +10,4 @@ int fibonacciSeries(){
         a=b;
         b=sum;
     }  
-    return 0;
 }
