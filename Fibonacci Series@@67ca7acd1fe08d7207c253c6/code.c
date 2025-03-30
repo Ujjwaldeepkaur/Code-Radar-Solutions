@@ -6,9 +6,9 @@ int fibonacci(){
     for(int i=1;i<=n;i++);
     {
         printf("%d",a);
-        sum=a+b
-        a=b
-        b=sum
+        sum=a+b;
+        a=b;
+        b=sum;
     }  
 }
 int main()
