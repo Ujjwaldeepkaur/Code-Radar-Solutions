@@ -2,6 +2,7 @@
 int fibonacciSeries(){
     int n;
     scanf("%d",&n);
+    for(int i=0;i<=n;i++);
     if(n<1)
     {
         return 0;
