@@ -16,6 +16,6 @@ int fibonacciseries()
 }
 int main()
 {
-    fibonacci();
+    fibonacciseries();
     return 0;
 }
