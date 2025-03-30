@@ -14,8 +14,3 @@ int fibonacciseries()
     }
 
 }
-int main()
-{
-    fibonacciseries();
-    return 0;
-}
