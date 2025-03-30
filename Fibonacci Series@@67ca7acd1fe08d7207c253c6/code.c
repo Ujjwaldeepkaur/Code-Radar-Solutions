@@ -13,6 +13,6 @@ int fibonacci(){
 }
 int main()
 {
-    fibonacci():
+    fibonacci();
     return 0;
 }
